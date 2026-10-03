@@ -13,14 +13,10 @@
   "loadOrderHint": 100,
   "files": {
     "overlay": [
-      { "target": "server", "src": "cmod.cs", "dest": "yolauncher/modpack/mods/LiFx/gui/cmod.cs" },
-      { "target": "server", "src": "forms/", "dest": "yolauncher/modpack/mods/LiFx/gui/forms/" },
-      { "target": "server", "src": "images/", "dest": "yolauncher/modpack/mods/LiFx/gui/images/" },
-      { "target": "server", "src": "loading/", "dest": "yolauncher/modpack/mods/LiFx/gui/loading/" },
-      { "target": "client-modpack", "src": "cmod.cs", "dest": "mods/LiFx/gui/cmod.cs" },
-      { "target": "client-modpack", "src": "forms/", "dest": "mods/LiFx/gui/forms/" },
-      { "target": "client-modpack", "src": "images/", "dest": "mods/LiFx/gui/images/" },
-      { "target": "client-modpack", "src": "loading/", "dest": "mods/LiFx/gui/loading/" }
+      { "src": "cmod.cs",  "dest": "yolauncher/modpack/mods/LiFx/gui/cmod.cs" },
+      { "src": "forms/",   "dest": "yolauncher/modpack/mods/LiFx/gui/forms/" },
+      { "src": "images/",  "dest": "yolauncher/modpack/mods/LiFx/gui/images/" },
+      { "src": "loading/", "dest": "yolauncher/modpack/mods/LiFx/gui/loading/" }
     ],
     "dataPatches": []
   }
