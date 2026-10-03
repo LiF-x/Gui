@@ -4,20 +4,43 @@
   "name": "LiFx Gui",
   "version": "1.0.0",
   "description": "Client-side GUI interface replacement: ships LiFx loading-screen backgrounds and skill-map artwork plus replacement .gui forms, loaded through the Yo Launcher client modpack.",
-  "authors": ["Warped Ibun", "Christophe Roblin"],
-  "source": { "repo": "LiF-x/Gui", "commit": "3c580174e8198d564d026743ee1e5433d9461377" },
-  "baseline": { "gameBuild": "sha256:d47ef6156423f1226b6d07a1f31f81d3aa94bc460cc1ac76bcf7d7ef9c305d4a", "steamBuildId": "11261643" },
-  "distribution": "indexed-linked-not-hosted",
-  "distributionNote": "No LICENSE file in the repo; cmod.cs carries a GPL-3.0 header but the repo does not ship the license text, so the mod is indexed and linked rather than hosted.",
-  "dependencies": ["LiF-x/ClientAutoloader"],
+  "authors": [
+    "Warped Ibun",
+    "Christophe Roblin"
+  ],
+  "source": {
+    "repo": "LiF-x/Gui",
+    "commit": "3c580174e8198d564d026743ee1e5433d9461377"
+  },
+  "baseline": {
+    "gameBuild": "sha256:d47ef6156423f1226b6d07a1f31f81d3aa94bc460cc1ac76bcf7d7ef9c305d4a",
+    "steamBuildId": "11261643"
+  },
+  "distribution": "hostable",
+  "dependencies": [
+    "LiF-x/ClientAutoloader"
+  ],
   "loadOrderHint": 100,
   "files": {
     "overlay": [
-      { "src": "cmod.cs",  "dest": "yolauncher/modpack/mods/LiFx/gui/cmod.cs" },
-      { "src": "forms/",   "dest": "yolauncher/modpack/mods/LiFx/gui/forms/" },
-      { "src": "images/",  "dest": "yolauncher/modpack/mods/LiFx/gui/images/" },
-      { "src": "loading/", "dest": "yolauncher/modpack/mods/LiFx/gui/loading/" }
+      {
+        "src": "cmod.cs",
+        "dest": "yolauncher/modpack/mods/LiFx/gui/cmod.cs"
+      },
+      {
+        "src": "forms/",
+        "dest": "yolauncher/modpack/mods/LiFx/gui/forms/"
+      },
+      {
+        "src": "images/",
+        "dest": "yolauncher/modpack/mods/LiFx/gui/images/"
+      },
+      {
+        "src": "loading/",
+        "dest": "yolauncher/modpack/mods/LiFx/gui/loading/"
+      }
     ],
     "dataPatches": []
-  }
+  },
+  "license": "GPL-3.0-only"
 }
